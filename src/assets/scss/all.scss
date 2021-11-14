@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/functions";
+@import "./variables"; /* 路徑為複製的 _variable.scss 路徑 */
+@import "./utilities"; 
+@import "~bootstrap/scss/mixins";
+
+/* 載入 Bootstrap */
+@import "~bootstrap";
+
+@import "./base";
+@import "./helpers/helpers";
+@import "./helpers/layout";
+
+@import "./components/card";
+@import "./components/list";

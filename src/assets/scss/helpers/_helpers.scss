@@ -1,0 +1,30 @@
+.banner{
+  height: 450px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  @media (max-width: 576px) {
+    height: 227px;
+  }
+}
+
+.text-shadow{
+  text-shadow: 0 4px 4px $black;
+}
+
+.box-shadow{
+  box-shadow: 0 4px 4px rgba($black, 0.25);
+}
+
+.info{
+  width: 50%;
+}
+
+.theme-select{
+  width: 250px;
+}
+
+.theme-icon{
+  left: 20px;
+  top: 12px;
+}
